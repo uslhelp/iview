@@ -1,0 +1,228 @@
+(function webpackUniversalModuleDefinition(root, factory) {
+    if (typeof exports === 'object' && typeof module === 'object')
+        module.exports = factory();
+    else if (typeof define === 'function' && define.amd)
+        define("iview/locale", [], factory);
+    else if (typeof exports === 'object')
+        exports["iview/locale"] = factory();
+    else
+        root["iview/locale"] = factory();
+})(this, function() {
+    return /******/ (function(modules) { // webpackBootstrap
+            /******/ // The module cache
+            /******/
+            var installedModules = {};
+            /******/
+            /******/ // The require function
+            /******/
+            function __webpack_require__(moduleId) {
+                /******/
+                /******/ // Check if module is in cache
+                /******/
+                if (installedModules[moduleId]) {
+                    /******/
+                    return installedModules[moduleId].exports;
+                    /******/
+                }
+                /******/ // Create a new module (and put it into the cache)
+                /******/
+                var module = installedModules[moduleId] = {
+                    /******/
+                    i: moduleId,
+                    /******/
+                    l: false,
+                    /******/
+                    exports: {}
+                    /******/
+                };
+                /******/
+                /******/ // Execute the module function
+                /******/
+                modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+                /******/
+                /******/ // Flag the module as loaded
+                /******/
+                module.l = true;
+                /******/
+                /******/ // Return the exports of the module
+                /******/
+                return module.exports;
+                /******/
+            }
+            /******/
+            /******/
+            /******/ // expose the modules object (__webpack_modules__)
+            /******/
+            __webpack_require__.m = modules;
+            /******/
+            /******/ // expose the module cache
+            /******/
+            __webpack_require__.c = installedModules;
+            /******/
+            /******/ // define getter function for harmony exports
+            /******/
+            __webpack_require__.d = function(exports, name, getter) {
+                /******/
+                if (!__webpack_require__.o(exports, name)) {
+                    /******/
+                    Object.defineProperty(exports, name, {
+                        /******/
+                        configurable: false,
+                        /******/
+                        enumerable: true,
+                        /******/
+                        get: getter
+                            /******/
+                    });
+                    /******/
+                }
+                /******/
+            };
+            /******/
+            /******/ // getDefaultExport function for compatibility with non-harmony modules
+            /******/
+            __webpack_require__.n = function(module) {
+                /******/
+                var getter = module && module.__esModule ?
+                    /******/
+                    function getDefault() { return module['default']; } :
+                    /******/
+                    function getModuleExports() { return module; };
+                /******/
+                __webpack_require__.d(getter, 'a', getter);
+                /******/
+                return getter;
+                /******/
+            };
+            /******/
+            /******/ // Object.prototype.hasOwnProperty.call
+            /******/
+            __webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+            /******/
+            /******/ // __webpack_public_path__
+            /******/
+            __webpack_require__.p = "/dist/locale/";
+            /******/
+            /******/ // Load entry module and return exports
+            /******/
+            return __webpack_require__(__webpack_require__.s = 1);
+            /******/
+        })
+        /************************************************************************/
+        /******/
+        ([
+            /* 0 */
+            ,
+            /* 1 */
+            /***/
+            (function(module, exports, __webpack_require__) {
+
+                "use strict";
+
+
+                Object.defineProperty(exports, "__esModule", {
+                    value: true
+                });
+                exports.default = {
+                    i: {
+                        select: {
+                            placeholder: 'चुनाव करे',
+                            noMatch: 'कोई डेटा मिला नहीं',
+                            loading: 'लोड हो रहा है'
+                        },
+                        table: {
+                            noDataText: 'कोई डेटा नहीं',
+                            noFilteredDataText: 'कोई फ़िल्टर डेटा नहीं',
+                            confirmFilter: 'पुष्टि करें',
+                            resetFilter: 'बदलाव करे',
+                            clearFilter: 'सब'
+                        },
+                        datepicker: {
+                            selectDate: 'तारीख चुने',
+                            selectTime: 'समय चुने',
+                            startTime: 'शुरू समय',
+                            endTime: 'अंतिम समय',
+                            clear: 'हटाए',
+                            ok: 'ठीक है',
+                            month: '',
+                            month1: 'जनवरी',
+                            month2: 'फरवरी',
+                            month3: 'मार्च',
+                            month4: 'अप्रैल',
+                            month5: 'मे',
+                            month6: 'जून',
+                            month7: 'जुलाई',
+                            month8: 'अगस्त',
+                            month9: 'सितम्बर',
+                            month10: 'अक्तूबर',
+                            month11: 'नवम्बर',
+                            month12: 'दिसंबर',
+                            year: '',
+                            weekStartDay: '0',
+                            weeks: {
+                                sun: 'रवि',
+                                mon: 'सोम',
+                                tue: 'मंगल',
+                                wed: 'बुध',
+                                thu: 'गुरु',
+                                fri: 'शुक्र',
+                                sat: 'शनी'
+                            },
+                            months: {
+                                m1: 'जन',
+                                m2: 'फर',
+                                m3: 'मार्च',
+                                m4: 'अप्रैल',
+                                m5: 'मे',
+                                m6: 'जुन',
+                                m7: 'जुलाई',
+                                m8: 'अग',
+                                m9: 'सित',
+                                m10: 'अक्तू',
+                                m11: 'नव',
+                                m12: 'दिस'
+                            }
+                        },
+                        transfer: {
+                            titles: {
+                                source: 'स्रोत',
+                                target: 'लक्ष्य'
+                            },
+                            filterPlaceholder: 'यहां खोजे',
+                            notFoundText: 'नही मिला'
+                        },
+                        modal: {
+                            okText: 'ठीक है',
+                            cancelText: 'रद्द करे'
+                        },
+                        poptip: {
+                            okText: 'ठीक है',
+                            cancelText: 'रद्द करे'
+                        },
+                        page: {
+                            prev: 'पिछला पृष्ठ',
+                            next: 'अगला पृष्ठ',
+                            total: 'कुल',
+                            item: 'वस्तु',
+                            items: 'वस्तुए',
+                            prev5: 'पिछले 5 पृष्ठ',
+                            next5: 'आगले 5 पृष्ठ ',
+                            page: '/पृष्ठ',
+                            goto: 'इस पर चलें',
+                            p: ''
+                        },
+                        rate: {
+                            star: 'तारांकित करना',
+                            stars: 'तारांकित करना'
+                        },
+                        tree: {
+                            emptyText: 'कोई डेटा नहीं'
+                        }
+                    }
+                };
+
+                /***/
+            })
+            /******/
+        ]);
+});
